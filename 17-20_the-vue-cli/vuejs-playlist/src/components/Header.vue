@@ -17,7 +17,7 @@ export default {
   },
   methods: {
     changeTitle() {
-      this.title = 'View Wizards'
+      this.$emit('changeTitle', 'View Wizards')
     }
   }
 }
